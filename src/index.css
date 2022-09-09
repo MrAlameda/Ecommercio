@@ -1,0 +1,107 @@
+/* globals */
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* fonts */
+    --lato: 'Lato', sans-serif;
+    --Ptsans:'PT Sans', sans-serif;
+    --btn:#4d4d4d;
+    /* colors */
+    --background:rgb(255, 255, 255);
+    --border:#e0e0e0;
+    
+}
+
+body{
+    background-color: var(--background);
+    font-family: var(--pixel);
+    max-width: 100vw;
+}
+
+/* Header */
+
+.header{
+    height: 3rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.btn{
+    width: 3rem;
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    color: #e0e0e0;
+    background-color: var(--btn);
+    height: 2rem;
+}
+
+.filterArea{
+    height: 1.5rem;
+    border: 1px solid var(--btn);
+    padding: .1rem;
+    margin: .2rem;
+    border-radius: 5px;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30rem;
+}
+
+/* content */
+
+.contentPro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Products */
+
+.proCard{
+    width: 200px;
+    height:400px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem;
+    border: 1px solid var(--border);
+    font-family: var(--lato);
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    max-height:80% ;
+    object-fit: contain;
+}
+
+/* login */
+
+.loginContainer{
+    max-width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.inputName{
+    height: 1.5rem;
+    border: 1px solid var(--btn);
+    padding: .1rem;
+    margin: .2rem;
+    border-radius: 5px;
+}
